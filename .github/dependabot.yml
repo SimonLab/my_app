@@ -9,7 +9,9 @@ updates:
   - package-ecosystem: npm
     directory: "/assets"
     ignore:
-      - dependency-name: "phoenix*"
+      - dependency-name: "phoenix"
+      - dependency-name: "phoenix_html"
+      - dependency-name: "phoenix_live_view"
     schedule:
       interval: daily
       time: "07:00"
